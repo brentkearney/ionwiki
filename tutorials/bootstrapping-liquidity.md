@@ -16,6 +16,10 @@ For recommendations on places to spend money on the Lightning Network, see [Ligh
 
 You can also acquire inbound liquidity by selling BTC in the Lightning Network; see the article on [Lightning-compatible exchanges](lightning-exchanges.md).
 
+## Loop Out
+
+Looping out is similar to spending BTC to transfer some of your "local balance" to the "remote balance" side of an open channel, except that you are spending it by paying yourself, through a third-party service that accepts the Lightning payment, and transfers it back into your on-chain Bitcoin wallet, for a fee. See the [Lightning Labs page](https://lightning.engineering/loop/) on the Loop service for more info.
+
 ## Ask For Inbound Channels
 
 One way to get more inbound liquidity is simply to ask for it.  This does requires other nodes to lock up BTC to open a channel to you, so don't be surprised if your request does not receive a response.
